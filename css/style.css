@@ -1,0 +1,356 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ .bold{
+    font-size: 24px !important;
+    font-weight: 400 !important;
+ }
+
+ .borde-naranja{
+  border: 5px solid #F25C05 !important;
+ }
+
+ #card-action-acerca{
+  border-top: none;
+}
+
+.contenido-pc{
+  display: block;
+}
+
+.contenido-movil{
+  display: none;
+}
+
+.div-contenedor{
+  position:absolute;
+}
+
+.fondo-bordo{
+  background-color: #A62103 !important;
+}
+
+.fondo-gris{
+  background-color: #8C8C8C !important;
+}
+
+.fondo-gris-claro{
+  background-color: #eeeeee !important;
+}
+
+.fondo-naranja{
+  background-color: #F25C05 !important;
+}
+
+.fondo-negro{
+  background-color: #0D0D0D !important;
+}
+
+footer{
+  background-color: #A62103 !important;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#frase-acerca{
+  /* font-family: 'Satisfy', cursive; */
+  font-size: 18px;
+}
+
+#foto-fs{
+ width: 57%;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.icon-skill{
+  width: 50%;
+}
+
+#logo{
+  width: 14%;
+  margin-top: -4%;
+}
+
+.margin-text-icon{
+  margin-top: 0%;
+}
+
+nav ul a, nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.redes-sociales{
+  width: 50%;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.sombra-tarjeta{
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+}
+
+.sombra-tarjeta:hover{
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.texto-fs{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+}
+
+.texto-naranja{
+  color: #F25C05 !important;
+}
+
+.texto-gris{
+  color: #e0e0e0 !important;
+}
+
+.texto-gris-claro{
+  color: #eeeeee !important;
+}
+
+.texto-gris-titulos{
+  /* color: #e0e0e0 !important; */
+  color: #9e9e9e !important;
+}
+
+.texto-gris-oscuro{
+  color: #8C8C8C !important;
+}
+
+.texto-nav{
+  color: #F25C05;
+  font-size: 20px;
+}
+
+.texto-nav:hover{
+  background-color: #F25C05;
+  color: black;
+}
+
+.texto-nav:focus{
+  background-color: #F25C05;
+  color: black;
+}
+
+.texto-porcentaje{
+  font-size: 20px;
+  margin-top: 5%;
+  color: #F25C05;
+}
+
+.titulo-seccion{
+  font-size: 70px;
+  font-weight: 700;
+}
+
+/* --------------------------------------------Cambios Estilos Formulario-------------------------------------------- */
+.input-field .prefix.active{
+  color: #F25C05 !important;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #F25C05 !important;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #F25C05 !important;
+  -webkit-box-shadow: 0 1px 0 0 #F25C05 !important;
+          box-shadow: 0 1px 0 0 #F25C05 !important;
+}
+
+/* --------------------------------------------Cambios Estilos Barras de Progreso-------------------------------------------- */
+.progress {
+  height: 15px !important;
+  background-color: #000000 !important;
+  margin: 1rem 0 1rem 0 !important;
+}
+
+.progress .determinate {
+  background-color: #F25C05;
+}
+
+/* --------------------------------------------Cambios Estilos Carrusel-------------------------------------------- */
+.carousel .indicators .indicator-item {
+  background-color: #8C8C8C !important; 
+}
+
+.carousel .indicators .indicator-item.active {
+  background-color: #F25C05 !important;
+}
+
+/* --------------------------------------------Cambios Estilos Barras Scroll-------------------------------------------- */
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #F25C05 #eeeeee;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #eeeeee ;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #F25C05;
+  border-radius: 20px;
+  border: 3px solid #eeeeee;
+}
+
+/* --------------------------------------------Cambios Estilos Side Nav-------------------------------------------- */
+.icon-sidenav
+{
+  color: #F25C05 !important;
+}
+
+.sidenav {
+  background-color: #000000;
+}
+
+.sidenav li > a {
+  color: #F25C05;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sidenav li > a:focus {
+  color: #000000 !important;
+  background-color: #F25C05;
+}
+
+.sidenav-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  height: 120vh;
+  background-color: transparent !important;
+  z-index: 0 !important;
+  display: none;
+}
+/* --------------------------------------------Medias Querys-------------------------------------------- */
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (max-width : 415px) {
+  .contenido-pc{
+    display: none;
+  }
+
+  .contenido-movil{
+    display: block;
+  }
+
+  #icon-facebook{
+    width: 33%;
+  }
+
+  .icon-skill {
+    width: 100%;
+  }
+
+  #icon-twitter{
+    width: 33%;
+  }
+
+  #index-banner .section {
+    top: 0;
+  }
+
+  #logo {
+    width: 50%;
+    margin-top: -16%;
+  }
+
+  .texto-porcentaje {
+    margin-top: 15%;
+  }
+
+  #footer-social-links{
+    margin-bottom: 5%;
+  }
+
+  .titulo-seccion{
+    font-size: 50px;
+    font-weight: 700;
+  }
+}
+
+

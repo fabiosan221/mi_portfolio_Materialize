@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Titulo de Pestaña -->
+    <title>Fabio Sanmartino - Diseño Web</title>
+    <!-- Icono Pestaña -->
+    <link rel="icon" href="img/favicon.png">
+    <!-- Archivos CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- Tipografia Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Whisper&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <!-- Libreria Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Libreria AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de Navegacion -->
+    <div id="nav-bar-fs" class="navbar-fixed scrollspy">
+      <nav class="black" role="navigation">
+        <div class="nav-wrapper container">
+          <!-- <a id="logo-container" href="#" class="brand-logo white-text"> <b class="texto-fs">F</b> <b class="texto-fs texto-naranja">S</b></a> -->
+          <a href="#nav-bar-fs"><img id="logo" class="responsive-img" src="img/logo-nav.png" alt="Logo barra navegación"></a> 
+          <ul class="right hide-on-med-and-down">
+            <li><a class="texto-nav" href="#ancla-acerca">Acerca de mí</a></li>
+            <li><a class="texto-nav" href="#ancla-habilidades">Habilidades</a></li>
+            <li><a class="texto-nav" href="#ancla-educacion">Educación</a></li>
+            <li><a class="texto-nav" href="#ancla-experiencia">Experiencia</a></li>
+            <li><a class="texto-nav" href="#ancla-contacto">Contacto</a></li>
+          </ul>
+          <ul id="nav-mobile" class="sidenav">
+            <li><a class="" href="#nav-bar-fs"><i class="material-icons icon-sidenav">home</i>Inicio</a></li>
+            <li><a class="texto-nav" href="#ancla-acerca"><i class="material-icons texto-naranja icon-sidenav">face</i> Acerca de mí</a></li>
+            <li><a class="texto-nav" href="#ancla-habilidades"><i class="material-icons texto-naranja icon-sidenav">assignment</i> Habilidades</a></li>
+            <li><a class="texto-nav" href="#ancla-educacion"><i class="material-icons texto-naranja icon-sidenav">school</i> Educación</a></li>
+            <li><a class="texto-nav" href="#ancla-experiencia-movil"><i class="material-icons texto-naranja icon-sidenav">business_center</i> Experiencia</a></li>
+            <li><a class="texto-nav" href="#ancla-contacto"><i class="material-icons texto-naranja icon-sidenav">mail</i> Contacto</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger right"><i class="material-icons texto-naranja">menu</i></a>
+        </div>
+      </nav>
+    </div>
+    <!-- Parallax-1 -->
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br><br>
+          <h1 class="header center">¡Hola!</h1>
+          <div class="row center">
+            <h5 class="header col s12 light">Mi nombre es <b id="nombre-portada" class="texto-naranja">Fabio Sanmartino</b> y soy Desarrollador Web</h5>
+          </div>
+          <div class="card-action center">
+            <a href="archivos/CV-Fabio-Nuevo.pdf" class="waves-effect waves-light btn fondo-naranja" target="_blanck"><i class="material-icons right">cloud_download</i>Descargar CV</a>
+          </div>
+          <br><br>
+        </div>
+      </div>
+      <div class="parallax"><img src="img/parallax-1.jpg" alt="Imagen fondo 1"></div>
+    </div>
+    <!-- Seccion Acerca de mi -->
+    <div id="ancla-acerca" class="section scrollspy contenido-pc">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m12">
+            <h1 class="header texto-gris-titulos center titulo-seccion" data-aos="fade-up" data-aos-duration="2000">A cerca de mí</h1>
+            <div class="card horizontal grey lighten-5">
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p id="frase-acerca">"Soy programador y diseñador de sitios web con más de cinco años de experiencia. 
+                    Poseo la habilidad, creatividad e innovación en mi campo de trabajo, que me distingue a la hora de 
+                    realizar nuevos proyectos que representan desafios para mi carrera profesional y personal".
+                  </p>
+                  <br>
+                  <div class="row">
+                    <div class="col s12 m6">
+                      <p><span class="texto-naranja">Nombre:</span> Fabio Sanmartino</p>
+                    </div>
+                    <div class="col s12 m6">
+                      <p><span class="texto-naranja">Edad:</span> 33 años</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col s12 m6">
+                      <p><span class="texto-naranja">Email:</span> fabiosan221@gmail.com</p>
+                    </div>
+                    <div class="col s12 m6">
+                      <p><span class="texto-naranja">Dirección:</span> Av. Ignacio de la Rosa 1245 (O)</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="card-action-acerca" class="card-action center">
+                  <a href="archivos/CV-Fabio-Nuevo.pdf" class="waves-effect waves-light btn-small fondo-naranja" target="_blanck"><i class="material-icons right">cloud_download</i>Descargar CV</a>
+                </div>
+              </div>
+              <div class="card-image">
+                  <img id="imagen-fs" class="right" src="img/imagen-fs-logos-wide-2.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container contenido-movil">
+      <div class="row">
+        <div class="col s12">
+          <h1 class="header texto-gris-titulos center titulo-seccion" data-aos="fade-up" data-aos-duration="2000">A cerca de mí</h1>
+          <div class="card">
+            <div class="card-image">
+                <img id="" src="img/imagen-fs.png">
+            </div>
+            <div class="card-content">
+                <p id="frase-acerca" class="center">"Soy programador y diseñador de sitios web con más de cinco años de experiencia. 
+                    Poseo la habilidad, creatividad e innovación en mi campo de trabajo, que me distingue a la hora de 
+                    realizar nuevos proyectos que representan desafios para mi carrera profesional y personal".
+                </p>
+                <br>
+                <div class="row">
+                    <div class="col s12">
+                      <p><span class="texto-naranja">Nombre:</span> Fabio Sanmartino</p>
+                    </div>
+                    <div class="col s12">
+                      <p><span class="texto-naranja">Edad:</span> 33 años</p>
+                    </div>                 
+                    <div class="col s12">
+                      <p><span class="texto-naranja">Email:</span> fabiosan221@gmail.com</p>
+                    </div>
+                    <div class="col s12">
+                      <p><span class="texto-naranja">Dirección:</span> Av. Ignacio de la Rosa 1245 (O)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-action center">
+                <a href="archivos/CV-Fabio-Nuevo.pdf" class="waves-effect waves-light btn-small fondo-naranja" target="_blanck"><i class="material-icons right">cloud_download</i>Descargar CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Parallax-2 -->
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="img/parallax-2.jpg" alt="Imagen fondo 1"></div>
+    </div>
+    <!--   Seccion Habilidades   -->
+    <div id="ancla-habilidades" class="section scrollspy fondo-gris-claro">
+      <div class="container">
+        <div class="row center">
+          <h1 class="header texto-gris-titulos center titulo-seccion" data-aos="fade-up" data-aos-duration="2000">Habilidades</h1>
+          <!-- Columna Izquierda -->
+          <div class="col m6 s12">
+            <div class="row">
+              <div class="col m2 s2"><img class="icon-skill" src="icon/html-icon.png" alt=""></div>
+              <div class="col m8 s8">
+                <div class="progress">
+                  <div class="determinate" style="width: 90%"></div>
+                </div>
+              </div>
+              <div class="col m2 s2"><p class="texto-porcentaje">90%</p></div>
+            </div>
+            <div class="row">
+              <div class="col m2 s2"><img class="icon-skill" src="icon/css-icon.png" alt=""></div>
+              <div class="col m8 s8">
+                <div class="progress">
+                  <div class="determinate" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="col m2 s2"><p class="texto-porcentaje">70%</p></div>
+            </div>
+            <div class="row">
+              <div class="col m2 s2"><img class="icon-skill" src="icon/js-icon.png" alt=""></div>
+              <div class="col m8 s8">
+                <div class="progress">
+                  <div class="determinate" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="col m2 s2"><p class="texto-porcentaje">60%</p></div>
+            </div>
+          </div>
+          <!-- Columna Derecha -->
+          <div class="col m6 s12">
+            <div class="row">
+              <div class="col m2 s2"><img class="icon-skill" src="icon/c-icon.png" alt=""></div>
+              <div class="col m8 s8">
+                <div class="progress">
+                  <div class="determinate" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="col m2 s2"><p class="texto-porcentaje">70%</p></div>
+            </div>
+            <div class="row">
+              <div class="col m2 s2"><img class="icon-skill" src="icon/php-icon.png" alt=""></div>
+              <div class="col m8 s8">
+                <div class="progress">
+                  <div class="determinate" style="width: 50%"></div>
+                </div>
+              </div>
+              <div class="col m2 s2"><p class="texto-porcentaje">50%</p></div>
+            </div>
+            <div class="row">
+              <div class="col m2 s2"><img class="icon-skill" src="icon/sql-icon.png" alt=""></div>
+              <div class="col m8 s8">
+                <div class="progress">
+                  <div class="determinate" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="col m2 s2"><p class="texto-porcentaje">80%</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--   Seccion Educación   -->
+    <div id="ancla-educacion" class="container section scrollspy">
+      <div class="section">
+        <div class="row center">
+          <h1  class="header texto-gris-titulos center titulo-seccion" data-aos="fade-up" data-aos-duration="2000">Educación</h1>
+          <div class="col s12 m6">
+            <div class="card sombra-tarjeta">
+              <div class="card-image waves-effect waves-block waves-light fondo-bordo">
+                <i class="white-text material-icons large">school</i>
+              </div>
+              <div class="card-content fondo-bordo">
+                <span class="card-title activator white-text"> Licenciado en Ciencias de la Computación<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Licenciado en Ciencias de la Computación<i class="material-icons right">close</i></span>
+                <p>Facultad de Ciencias Exactas, Físicas y Naturales - UNSJ.</p>
+                <p>Año: 2020</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card sombra-tarjeta">
+              <div class="card-image waves-effect waves-block waves-light fondo-naranja">
+                <i class="material-icons large">school</i>
+              </div>
+              <div class="card-content  fondo-naranja">
+                <span class="card-title activator white-text">Técnico Universitario en Programación<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Técnico Universitario en Programación<i class="material-icons right">close</i></span>
+                <p>Facultad de Ciencias Exactas, Físicas y Naturales - UNSJ.</p>
+                <p>Año: 2017</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row center">
+          <div class="col s12 m6">
+            <div class="card sombra-tarjeta">
+              <div class="card-image waves-effect waves-block waves-light fondo-naranja">
+                <i class="material-icons large">laptop</i>
+              </div>
+              <div class="card-content fondo-naranja">
+                <span class="card-title activator white-text">Diseño e Implementación de APIS<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Diseño e Implementación de APIs RESTful con NodeJS<i class="material-icons right">close</i></span>
+                <p>PROGRAMA TALENTOS TIC - San Juan TEC</p>
+                <p>Año: 2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card sombra-tarjeta">
+              <div class="card-image waves-effect waves-block waves-light fondo-bordo">
+                <i class="white-text material-icons large">laptop</i>
+              </div>
+              <div class="card-content fondo-bordo">
+                <span class="card-title activator white-text">Responsive Desing<i class="material-icons right">more_vert</i></span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Responsive Desing<i class="material-icons right">close</i></span>
+                <p>PROGRAMA DE BECAS ACAMICA - Proyecto Estructurador “Posicionamiento y
+                  Fortalecimiento del Sector TICs y de la Casetic en la Provincia de San Juan”</p>
+                <p>Año: 2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Parallax-3 -->
+     <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <!-- <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5> -->
+          </div>
+        </div>
+      </div>
+      <div class="parallax"><img src="img/parallax-3.jpg" alt="Imagen fondo 1"></div>
+    </div>
+    <!--   Seccion Experiencia   -->
+    <div class="contenido-pc">
+      <div id="ancla-experiencia" class="section scrollspy fondo-gris-claro">
+        <h1  class="header texto-gris-titulos center titulo-seccion" data-aos="fade-up" data-aos-duration="2000">Experiencia</h1>
+        <div class="carousel carousel-slider center">
+          <div class="carousel-item fondo-gris-claro" href="#one!">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 m6">
+                  <div class="card fondo-negro">
+                    <div class="card-content">
+                      <b class="card-title texto-naranja bold">Desarrollador Frontend y Backend</b>
+                      <p class="white-text">Proyecto SIGED (Sistema Integrado de Gestión de Documentos)</p>
+                      <p class="white-text">Dirección Provincial de Informática - Gobierno de San Juan</p>
+                    </div>
+                    <div class="card-action">
+                      <p class="texto-naranja">2017 - 2022</p>
+                      <a href="#modal1" class="btn-floating halfway-fab waves-effect waves-light fondo-naranja modal-trigger"><i class="material-icons">add</i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m6">
+                  <div class="card fondo-negro">
+                    <div class="card-content white-text">
+                      <span class="card-title texto-naranja bold">Docente cátedra Programación Web II</span>
+                      <p class="white-text">Tecnicatura en Programación Universitaria</p>
+                      <p class="white-text">Facultad de Ciencias Exactas, Físicas y Naturales - UNSJ</p>
+                    </div>
+                    <div class="card-action">
+                      <p class="texto-naranja">2020 - 2022</p>
+                      <a href="#modal2" class="btn-floating halfway-fab waves-effect waves-light fondo-naranja modal-trigger"><i class="material-icons">add</i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item fondo-gris-claro" href="#two!">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 m6">
+                  <div class="card fondo-negro darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title texto-naranja bold">Docente cátedra Diseño Web I</span>
+                      <p class="white-text">Tecnicatura en Programación Universitaria</p>
+                      <p class="white-text">Facultad de Ciencias Exactas, Físicas y Naturales - UNSJ</p>
+                    </div>
+                    <div class="card-action">
+                      <p class="texto-naranja">2020 - 2022</p>
+                      <a href="#modal3" class="btn-floating halfway-fab waves-effect waves-light fondo-naranja modal-trigger"><i class="material-icons">add</i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col s12 m6">
+                  <div class="card fondo-negro darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title texto-naranja bold">Docente cátedra Estruct. y Funci. de Computadoras I</span>
+                      <p class="white-text">Tecnicatura en Programación Universitaria</p>
+                      <p class="white-text">Facultad de Ciencias Exactas, Físicas y Naturales - UNSJ</p>
+                    </div>
+                    <div class="card-action">
+                      <p class="texto-naranja">2018 - 2022</p>
+                      <a href="#modal4" class="btn-floating halfway-fab waves-effect waves-light fondo-naranja modal-trigger"><i class="material-icons">add</i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contenido-movil">
+      <div id="ancla-experiencia-movil" class="section scrollspy fondo-gris-claro">
+        <h1  class="header texto-gris-titulos center titulo-seccion" data-aos="fade-up" data-aos-duration="2000">Experiencia</h1>
+        <div class="carousel carousel-slider center">
+          <div class="carousel-item fondo-gris-claro" href="#one!">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 m6">
+                  <div class="card fondo-negro">
+                    <div class="card-content">
+                      <b class="card-title texto-naranja bold">Desarrollador Frontend y Backend</b>
+                      <p class="white-text">Proyecto SIGED (Sistema Integrado de Gestión de Documentos)</p>
+                      <p class="white-text">Dirección Provincial de Informática - Gobierno de San Juan</p>
+                    </div>
+                    <div class="card-action">
+                      <p class="texto-naranja">2017 - 2022</p>
+                      <a href="#modal1" class="btn-floating halfway-fab waves-effect waves-light fondo-naranja modal-trigger"><i class="material-icons">add</i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item fondo-gris-claro" href="#two!">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 m6">
+                  <div class="card fondo-negro">
+                    <div class="card-content white-text">
+                      <span class="card-title texto-naranja bold">Docente cátedra Programación Web II</span>
+                      <p class="white-text">Tecnicatura en Programación Universitaria</p>
+                      <p class="white-text">Facultad de Ciencias Exactas, Físicas y Naturales - UNSJ</p>
+                    </div>
+                    <div class="card-action">
+                      <p class="texto-naranja">2020 - 2022</p>
+                      <a href="#modal2" class="btn-floating halfway-fab waves-effect waves-light fondo-naranja modal-trigger"><i class="material-icons">add</i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item fondo-gris-claro" href="#three!">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 m6">
+                  <div class="card fondo-negro darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title texto-naranja bold">Docente cátedra Diseño Web I</span>
+                      <p class="white-text">Tecnicatura en Programación Universitaria</p>
+                      <p class="white-text">Facultad de Ciencias Exactas, Físicas y Naturales - UNSJ</p>
+                    </div>
+                    <div class="card-action">
+                      <p class="texto-naranja">2020 - 2022</p>
+                      <a href="#modal3" class="btn-floating halfway-fab waves-effect waves-light fondo-naranja modal-trigger"><i class="material-icons">add</i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item fondo-gris-claro" href="#four!">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 m6">
+                  <div class="card fondo-negro darken-1">
+                    <div class="card-content white-text">
+                      <span class="card-title texto-naranja bold">Docente cátedra Estruct. y Funci. de Computadoras I</span>
+                      <p class="white-text">Tecnicatura en Programación Universitaria</p>
+                      <p class="white-text">Facultad de Ciencias Exactas, Físicas y Naturales - UNSJ</p>
+                    </div>
+                    <div class="card-action">
+                      <p class="texto-naranja">2018 - 2022</p>
+                      <a href="#modal4" class="btn-floating halfway-fab waves-effect waves-light fondo-naranja modal-trigger"><i class="material-icons">add</i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modales Experiencia -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4 class="texto-naranja">Desarrollador Frontend y Backend</h4>
+        <p>Proyecto SIGED (Sistema Integrado de Gestión de Documentos)</p>
+        <p>Dirección Provincial de Informática - Gobierno de San Juan</p>
+        <p>Tareas desarrolladas:</p>
+        <ul>
+          <li><i class="material-icons tiny">keyboard_arrow_right</i>Desarrollo frontend aplicacion para la gestion de expedientes</li>
+          <li><i class="material-icons tiny">keyboard_arrow_right</i>Desarrollo backend aplicacion para la gestion de expedientes</li>
+          <li><i class="material-icons tiny">keyboard_arrow_right</i>Manejo base de datos Oracle con uso de PL/SQL</li>
+        </ul>
+        <p>Periodo: 2017 - 2022</p>
+      </div>
+      <div class="modal-footer fondo-naranja">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat white-text">Cerrar</a>
+      </div>
+    </div>
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h4 class="texto-naranja">Docente cátedra Programación Web II</h4>
+        <p>Tecnicatura en Programación Universitaria</p>
+        <p>Facultad de Ciencias Exactas, Físicas y Naturales - UNSJ</p>
+        <p>Tareas desarrolladas:</p>
+        <ul>
+          <li><i class="material-icons tiny">keyboard_arrow_right</i>Titular de cátedra</li>
+        </ul>
+        <p>Periodo: 2020 - 2022</p>
+      </div>
+      <div class="modal-footer fondo-naranja">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat white-text">Cerrar</a>
+      </div>
+    </div>
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <h4 class="texto-naranja">Docente cátedra Diseño Web I</h4>
+        <p>Tecnicatura en Programación Universitaria</p>
+        <p>Facultad de Ciencias Exactas, Físicas y Naturales - UNSJ</p>
+        <p>Tareas desarrolladas:</p>
+        <ul>
+          <li><i class="material-icons tiny">keyboard_arrow_right</i>Jefe de trabajos prácticos</li>
+        </ul>
+        <p>Periodo: 2020 - 2022</p>
+      </div>
+      <div class="modal-footer fondo-naranja">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat white-text">Cerrar</a>
+      </div>
+    </div>
+    <div id="modal4" class="modal">
+      <div class="modal-content">
+        <h4 class="texto-naranja">Docente cátedra Estruct. y Funci. de Computadoras I</h4>
+        <p>Tecnicatura en Programación Universitaria</p>
+        <p>Facultad de Ciencias Exactas, Físicas y Naturales - UNSJ</p>
+        <p>Tareas desarrolladas:</p>
+        <ul>
+          <li><i class="material-icons tiny">keyboard_arrow_right</i>Jefe de trabajos prácticos</li>
+        </ul>
+        <p>Periodo: 2018 - 2022</p>
+      </div>
+      <div class="modal-footer fondo-naranja">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat white-text">Cerrar</a>
+      </div>
+    </div>
+    <!-- Formulario de Contacto -->
+    <div id="ancla-contacto" class="container section scrollspy">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <h1  class="header texto-gris-titulos center titulo-seccion" data-aos="fade-up" data-aos-duration="2000">Contacto</h1>
+            <div class="row">
+              <form class="col s12 m6 offset-m3">
+                <div class="row"> 
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Nombre</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Teléfono</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">mail</i>
+                    <input id="icon_email" type="tel" class="validate">
+                    <label for="icon_email">Email</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                    <label for="icon_prefix2">Mensaje</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <a class="waves-effect waves-light btn fondo-naranja">Enviar</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pie de Pagina -->
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Fabio Sanmartino</h5>
+            <div class="row">
+              <div class="col m1"><i class="material-icons margin-icon">email</i></div>
+              <div class="col m11"><p class="margin-text-icon">fabiosan221@gmail.com</p></div>
+            </div>
+            <div class="row">
+              <div class="col m1"><i class="material-icons margin-icon">phone_android</i></div>
+              <div class="col m11"><p class="margin-text-icon">+5492644405704</p></div>
+            </div>
+            <div class="row">
+              <div class="col m1"><i class="material-icons margin-icon">home</i></div>
+              <div class="col m11"><p class="margin-text-icon">Av. Ignacio de la Rosa 1245 (O)</p></div>
+            </div>
+            <div class="row">
+              <div class="col m1"><i class="material-icons margin-icon">location_on</i></div>
+              <div class="col m11"><p class="margin-text-icon">San Juan, Argentina</p></div>
+            </div>
+          </div>
+          <div class="contenido-pc">
+            <div class="col l6 s12">
+              <h5 id="footer-social-links" class="white-text">Social Links</h5>
+              <div class="row">
+                <div class="col m2 s4"><a class="white-text" href="https://web.whatsapp.com/" target="_blank"><img class="redes-sociales" src="icon/whatsapp-icon-blanco.png" alt=""></a></div>
+                <div class="col m2 s4"><a class="white-text" href="https://ar.linkedin.com/" target="_blank"><img class="redes-sociales" src="icon/linkedin-icon-blanco.png" alt=""></a></div>
+                <div class="col m2 s4"><a class="white-text" href="https://www.instagram.com/?hl=es" target="_blank"><img class="redes-sociales" src="icon/instagram-icon-blanco.png" alt=""></a></div>
+                <div class="col m2 s6"><a class="white-text" href="https://twitter.com/?lang=es" target="_blank"><img class="redes-sociales" src="icon/twitter-icon-blanco.png" alt=""></a></div>
+                <div class="col m2 s6"><a class="white-text" href="https://es-la.facebook.com/" target="_blank"><img class="redes-sociales" src="icon/facebook-icon-blanco.png" alt=""></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="contenido-movil">
+            <div class="col l6 s12">
+              <h5 id="footer-social-links" class="white-text">Social Links</h5>
+              <div class="row center">
+                <div class="col m2 s4"><a class="white-text" href="https://web.whatsapp.com/" target="_blank"><img id="icon-whatsapp" class="redes-sociales" src="icon/whatsapp-icon-blanco.png" alt=""></a></div>
+                <div class="col m2 s4"><a class="white-text" href="https://ar.linkedin.com/" target="_blank"><img id="icon-linkedin" class="redes-sociales" src="icon/linkedin-icon-blanco.png" alt=""></a></div>
+                <div class="col m2 s4"><a class="white-text" href="https://www.instagram.com/?hl=es" target="_blank"><img id="icon-instagram" class="redes-sociales" src="icon/instagram-icon-blanco.png" alt=""></a></div>
+              </div>
+              <div class="row center">
+                <div class="col m2 s6"><a class="white-text" href="https://twitter.com/?lang=es" target="_blank"><img id="icon-twitter" class="redes-sociales" src="icon/twitter-icon-blanco.png" alt=""></a></div>
+                <div class="col m2 s6"><a class="white-text" href="https://es-la.facebook.com/" target="_blank"><img id="icon-facebook" class="redes-sociales" src="icon/facebook-icon-blanco.png" alt=""></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col sm6 m6">
+              <p>© 2022 Fabio Sanmartino, Todos los derechos reservados</p>
+            </div>
+            <div class="col sm6 m6">
+              <p class="right">Diseñado por FS | Web Desing</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--  Script Carusel -->
+    <script>
+      $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+      });
+    </script>
+    <!-- Script ScrollSpy -->
+    <script>
+      $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+      });
+    </script>
+    <!--  Script Modal -->
+    <script>
+      $(document).ready(function(){
+        $('.modal').modal();
+      });
+    </script>
+    <!-- Script AOS -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
